@@ -1,0 +1,56 @@
+.h1Tag {
+    letter-spacing: .4rem;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.h2Tag {
+    font-family: "Playfair Display", serif;
+    letter-spacing: .2rem;
+    margin-top: 30px;
+}
+
+.body {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.projectImg {
+    width: 400PX
+}
+
+.darkMode {
+    width: 100px;
+}
+
+
+.wrapper {
+    margin-top: 30em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-area {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+.img-area img {
+    position: absolute;
+
+    height: 200px;
+    width: 200px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.img-area img.img-front:hover {
+    opacity: 0;
+    cursor: pointer;
+}
